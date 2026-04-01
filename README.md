@@ -63,30 +63,37 @@ This analysis explores:
 
 ### 1. Correlation Analysis - Full Period
 <img width="1059" height="600" alt="image" src="https://github.com/user-attachments/assets/f88c652e-5c36-4b4c-ae23-7df95439ac6c" />
+
 **Description**: Heatmap showing pairwise correlations between S&P 500 constituents during the entire analysis period (Jan 2020 - Dec 2021). Lighter colors indicate weak correlations; darker colors indicate stronger correlations between stocks.
 
 ### 2. Correlation Analysis - COVID Crisis
 <img width="1059" height="599" alt="image" src="https://github.com/user-attachments/assets/9132d868-e0fc-4e81-b4ef-ccbc0c1276ab" />
+
 **Description**: Correlation heatmap during the acute COVID-19 market shock (Feb-Apr 2020). Noticeably darker than the full period, indicating systematic increase in correlations as markets moved in lockstep during the crisis.
 
 ### 3. Portfolio Returns Comparison
 <img width="380" height="260" alt="image" src="https://github.com/user-attachments/assets/0b4b6f01-c986-471a-9b31-0cbd40d0f812" />
+
 **Description**: Cumulative returns of high-risk vs. low-risk portfolios. The high-risk portfolio shows sharp decline during Feb-Apr 2020, while the low-risk portfolio maintains relative stability, highlighting the protective nature of defensive stocks.
 
 ### 4. Fama-French Beta Distribution
 <img width="697" height="321" alt="image" src="https://github.com/user-attachments/assets/2d863139-2c3c-423b-ba79-47b2c8b5fc96" />
+
 **Description**: Histograms comparing Factor exposures (Market, SMB, HML) between high-risk (top row) and low-risk (bottom row) portfolios. High-risk portfolio shows stronger positive skew in all factors, particularly in HML, indicating value-stock behavior.
 
 ### 5. 3D Factor Space Visualization
 <img width="572" height="558" alt="image" src="https://github.com/user-attachments/assets/6c6f1bc3-6250-44bc-bca8-0513698646cf" />
+
 **Description**: 3D scatter plot of stocks plotted by their three Fama-French factor exposures (Market-RF, SMB, HML). Clear separation between high-risk cluster (right/upper) and low-risk cluster (left/lower) visible.
 
 ### 6. Walmart Analysis - Price & Market Factor
 <img width="986" height="398" alt="image" src="https://github.com/user-attachments/assets/c267b78e-8c4e-473f-adb1-7db2c2355799" />
+
 **Description**: Walmart stock price evolution with gray shading indicating periods of positive/negative market factor (Mkt-RF). The shading pattern closely follows price movements, demonstrating systematic market factor exposure.
 
 ### 7. Walmart Analysis - Returns & Market Factor
 <img width="716" height="398" alt="image" src="https://github.com/user-attachments/assets/1721b377-db4c-4139-9756-8145861e8a21" />
+
 **Description**: Walmart daily returns visualization with market factor periods highlighted. Clear synchronization between factor regime changes and return patterns illustrates the importance of systematic risk in portfolio construction.
 
 ## 🚀 Getting Started
