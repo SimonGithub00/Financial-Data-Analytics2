@@ -62,24 +62,31 @@ This analysis explores:
 ## 📈 Key Visualizations
 
 ### 1. Correlation Analysis - Full Period
+![Correlation Heatmap](images/01_correlation_full_period.png)
 **Description**: Heatmap showing pairwise correlations between S&P 500 constituents during the entire analysis period (Jan 2020 - Dec 2021). Lighter colors indicate weak correlations; darker colors indicate stronger correlations between stocks.
 
 ### 2. Correlation Analysis - COVID Crisis
+![Crisis Correlation](images/02_correlation_crisis_period.png)
 **Description**: Correlation heatmap during the acute COVID-19 market shock (Feb-Apr 2020). Noticeably darker than the full period, indicating systematic increase in correlations as markets moved in lockstep during the crisis.
 
 ### 3. Portfolio Returns Comparison
+![Returns Comparison](images/03_portfolio_returns_comparison.png)
 **Description**: Cumulative returns of high-risk vs. low-risk portfolios. The high-risk portfolio shows sharp decline during Feb-Apr 2020, while the low-risk portfolio maintains relative stability, highlighting the protective nature of defensive stocks.
 
 ### 4. Fama-French Beta Distribution
+![Beta Distribution](images/04_ff3_beta_distribution.png)
 **Description**: Histograms comparing Factor exposures (Market, SMB, HML) between high-risk (top row) and low-risk (bottom row) portfolios. High-risk portfolio shows stronger positive skew in all factors, particularly in HML, indicating value-stock behavior.
 
 ### 5. 3D Factor Space Visualization
+![3D Factors](images/05_3d_factor_space.png)
 **Description**: 3D scatter plot of stocks plotted by their three Fama-French factor exposures (Market-RF, SMB, HML). Clear separation between high-risk cluster (right/upper) and low-risk cluster (left/lower) visible.
 
 ### 6. Walmart Analysis - Price & Market Factor
+![Walmart MKT](images/06_walmart_price_vs_mkt.png)
 **Description**: Walmart stock price evolution with gray shading indicating periods of positive/negative market factor (Mkt-RF). The shading pattern closely follows price movements, demonstrating systematic market factor exposure.
 
 ### 7. Walmart Analysis - Returns & Market Factor
+![Walmart Returns](images/07_walmart_returns_vs_mkt.png)
 **Description**: Walmart daily returns visualization with market factor periods highlighted. Clear synchronization between factor regime changes and return patterns illustrates the importance of systematic risk in portfolio construction.
 
 ## 🚀 Getting Started
@@ -124,7 +131,18 @@ Where:
 ## 📁 Project Structure
 ```
 ├── FDA2.ipynb                 # Main analysis notebook
-└── README.md                  # This file
+├── README.md                  # This file
+├── images/                    # Chart visualizations
+│   ├── 01_correlation_full_period.png
+│   ├── 02_correlation_crisis_period.png
+│   ├── 03_portfolio_returns_comparison.png
+│   ├── 04_ff3_beta_distribution.png
+│   ├── 05_3d_factor_space.png
+│   ├── 06_walmart_price_vs_mkt.png
+│   └── 07_walmart_returns_vs_mkt.png
+└── Data Sources
+    ├── Yahoo Finance API      # Real-time market data
+    └── Kenneth French Library # Fama-French factors
 ```
 
 ## 🔬 Statistical Significance
@@ -149,3 +167,19 @@ This analysis framework can be applied to:
 - Fama, E. F., & French, K. R. (1993). "Common risk factors in the returns on stocks and bonds."
 - Kenneth French Data Library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/
 - Yahoo Finance: https://finance.yahoo.com
+
+## 📝 License
+
+This project is provided as-is for educational and research purposes.
+
+## ✨ Acknowledgments
+
+- Data sourced from Yahoo Finance and Kenneth French Data Library
+- Analysis conducted using industry-standard Python scientific libraries
+- Methodology based on established quantitative finance practices
+
+---
+
+**Last Updated**: April 2026  
+**Python Version**: 3.8+  
+**Status**: Complete Analysis
