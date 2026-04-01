@@ -132,17 +132,6 @@ Where:
 ```
 ├── FDA2.ipynb                 # Main analysis notebook
 ├── README.md                  # This file
-├── images/                    # Chart visualizations
-│   ├── 01_correlation_full_period.png
-│   ├── 02_correlation_crisis_period.png
-│   ├── 03_portfolio_returns_comparison.png
-│   ├── 04_ff3_beta_distribution.png
-│   ├── 05_3d_factor_space.png
-│   ├── 06_walmart_price_vs_mkt.png
-│   └── 07_walmart_returns_vs_mkt.png
-└── Data Sources
-    ├── Yahoo Finance API      # Real-time market data
-    └── Kenneth French Library # Fama-French factors
 ```
 
 ## 🔬 Statistical Significance
@@ -167,19 +156,3 @@ This analysis framework can be applied to:
 - Fama, E. F., & French, K. R. (1993). "Common risk factors in the returns on stocks and bonds."
 - Kenneth French Data Library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/
 - Yahoo Finance: https://finance.yahoo.com
-
-## 📝 License
-
-This project is provided as-is for educational and research purposes.
-
-## ✨ Acknowledgments
-
-- Data sourced from Yahoo Finance and Kenneth French Data Library
-- Analysis conducted using industry-standard Python scientific libraries
-- Methodology based on established quantitative finance practices
-
----
-
-**Last Updated**: April 2026  
-**Python Version**: 3.8+  
-**Status**: Complete Analysis
