@@ -61,32 +61,25 @@ This analysis explores:
 
 ## 📈 Key Visualizations
 
-### Correlation Analysis - Full Period
-![Correlation Heatmap](https://via.placeholder.com/800x500?text=Correlation+Matrix+2020-2021)
+### 1. Correlation Analysis - Full Period
 **Description**: Heatmap showing pairwise correlations between S&P 500 constituents during the entire analysis period (Jan 2020 - Dec 2021). Lighter colors indicate weak correlations; darker colors indicate stronger correlations between stocks.
 
-### Correlation Analysis - COVID Crisis
-![Crisis Correlation](https://via.placeholder.com/800x500?text=Correlation+During+Crisis)
+### 2. Correlation Analysis - COVID Crisis
 **Description**: Correlation heatmap during the acute COVID-19 market shock (Feb-Apr 2020). Noticeably darker than the full period, indicating systematic increase in correlations as markets moved in lockstep during the crisis.
 
-### Portfolio Returns Comparison
-![Returns Comparison](https://via.placeholder.com/800x600?text=High+vs+Low+Risk+Returns)
-**Description**: Cumulative returns of high-risk vs. low-risk portfolios. The high-risk portfolio (red) shows sharp decline during Feb-Apr 2020, while the low-risk portfolio (blue) maintains relative stability, highlighting the protective nature of defensive stocks.
+### 3. Portfolio Returns Comparison
+**Description**: Cumulative returns of high-risk vs. low-risk portfolios. The high-risk portfolio shows sharp decline during Feb-Apr 2020, while the low-risk portfolio maintains relative stability, highlighting the protective nature of defensive stocks.
 
-### Fama-French Beta Distribution
-![Beta Distribution](https://via.placeholder.com/1000x400?text=FF3+Beta+Factor+Distribution)
+### 4. Fama-French Beta Distribution
 **Description**: Histograms comparing Factor exposures (Market, SMB, HML) between high-risk (top row) and low-risk (bottom row) portfolios. High-risk portfolio shows stronger positive skew in all factors, particularly in HML, indicating value-stock behavior.
 
-### 3D Factor Space Visualization
-![3D Factors](https://via.placeholder.com/800x600?text=3D+Factor+Space)
+### 5. 3D Factor Space Visualization
 **Description**: 3D scatter plot of stocks plotted by their three Fama-French factor exposures (Market-RF, SMB, HML). Clear separation between high-risk cluster (right/upper) and low-risk cluster (left/lower) visible.
 
-### Walmart Analysis - Price & Market Factor
-![Walmart MKT](https://via.placeholder.com/1000x400?text=Walmart+Stock+vs+Market+Factor)
+### 6. Walmart Analysis - Price & Market Factor
 **Description**: Walmart stock price evolution with gray shading indicating periods of positive/negative market factor (Mkt-RF). The shading pattern closely follows price movements, demonstrating systematic market factor exposure.
 
-### Walmart Analysis - Returns & Market Factor
-![Walmart Returns](https://via.placeholder.com/1000x400?text=Walmart+Returns+vs+Market+Factor)
+### 7. Walmart Analysis - Returns & Market Factor
 **Description**: Walmart daily returns visualization with market factor periods highlighted. Clear synchronization between factor regime changes and return patterns illustrates the importance of systematic risk in portfolio construction.
 
 ## 🚀 Getting Started
@@ -131,10 +124,7 @@ Where:
 ## 📁 Project Structure
 ```
 ├── FDA2.ipynb                 # Main analysis notebook
-├── README.md                  # This file
-└── Data Sources
-    ├── Yahoo Finance API      # Real-time market data
-    └── Kenneth French Library # Fama-French factors
+└── README.md                  # This file
 ```
 
 ## 🔬 Statistical Significance
@@ -159,19 +149,3 @@ This analysis framework can be applied to:
 - Fama, E. F., & French, K. R. (1993). "Common risk factors in the returns on stocks and bonds."
 - Kenneth French Data Library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/
 - Yahoo Finance: https://finance.yahoo.com
-
-## 📝 License
-
-This project is provided as-is for educational and research purposes.
-
-## ✨ Acknowledgments
-
-- Data sourced from Yahoo Finance and Kenneth French Data Library
-- Analysis conducted using industry-standard Python scientific libraries
-- Methodology based on established quantitative finance practices
-
----
-
-**Last Updated**: April 2026  
-**Python Version**: 3.8+  
-**Status**: Complete Analysis
